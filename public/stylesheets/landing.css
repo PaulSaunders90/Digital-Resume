@@ -1,0 +1,209 @@
+/* Landing Page */
+
+/* Resume Layout */
+
+.resumebody{
+    position: relative;
+    max-width: 800px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.resumecontent{
+    background-color: rgb(250, 250, 250);
+    border-radius: 12px;
+    padding: 15px 25px;
+    margin: 50px auto 100px;
+    max-width: 800px;
+    color: rgb(104,84,137)
+}
+
+#resumeheader{
+    font-size: 40px;
+    text-align: center;
+    margin: 15px 0;
+    font-weight: 900;
+}
+
+.resumeheadersubtext{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+#previousprojects{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+ }
+
+.focuscontentheader{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.focuscontenttitle{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.focuscontentcontainer{
+    border: 1px solid rgb(104,84,137);
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.techentries{
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.techentries b{
+  margin-right: 10px;
+}
+
+.techentries em{
+  margin-left: 10px;
+}
+
+.techline:not(:last-child){
+  width: 100%;
+  border-bottom: 1px solid rgba(104,84,137, .3);
+}
+
+.featuring{
+  text-align: center;
+}
+
+.featuringline{
+  border-bottom: 1px solid rgba(104,84,137, .3);
+  margin: 10px auto;
+  width: 80%;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+/* Preview Containers */
+
+.imagecontainer{
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+
+/* Button Effects */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  
+
+  .btn {
+    text-decoration: none;
+    border: 1px solid rgb(104,84,137);
+    position: relative;
+    overflow: hidden;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+  }
+  
+  .btn:hover {
+    box-shadow: 1px 1px 25px 10px rgba(104,84,137, 0.4);
+  }
+  
+  .btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(104,84,137, 0.4),
+      transparent
+    );
+    transition: all 650ms;
+  }
+  
+  .btn:hover:before {
+    left: 100%;
+  }
+  
+  /* Social Media Buttons */
+
+  
+  .ir {
+    display: block;
+    overflow: visible;
+    padding: 0 0 100%;
+    position: relative;
+    height: 0;
+    width: 100%;
+  }
+  
+  .ir > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .soc {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .soc li {
+    display: inline-block;
+    margin: 8px 50px;
+  }
+
+  .soc a, .soc svg {
+    display: block;
+  }
+
+  .soc a {
+    position: relative;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .icon {
+    color: rgb(104,84,137);
+    fill: rgb(104,84,137);
+  }
+
+ .icon:hover{
+    border-radius: 100%;
+    color:rgb(250, 250, 250);
+    fill: rgb(250, 250, 250);
+    background: rgb(104,84,137);
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+    -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  }
